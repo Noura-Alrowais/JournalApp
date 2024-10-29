@@ -14,6 +14,10 @@
 		B71424692CC62B5E005FF296 /* JournalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71424682CC62B5E005FF296 /* JournalAppTests.swift */; };
 		B71424732CC62B5E005FF296 /* JournalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71424722CC62B5E005FF296 /* JournalAppUITests.swift */; };
 		B71424752CC62B5E005FF296 /* JournalAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71424742CC62B5E005FF296 /* JournalAppUITestsLaunchTests.swift */; };
+		B748D2C52CC9556A005C0F6B /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748D2C42CC9556A005C0F6B /* Test.swift */; };
+		B748D2C72CCA2167005C0F6B /* JournalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748D2C62CCA2167005C0F6B /* JournalPage.swift */; };
+		B748D2C92CCEB39A005C0F6B /* JournalEntryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748D2C82CCEB39A005C0F6B /* JournalEntryData.swift */; };
+		B7B699452CC793520055113E /* mainpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B699442CC793520055113E /* mainpage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		B714246E2CC62B5E005FF296 /* JournalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71424722CC62B5E005FF296 /* JournalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalAppUITests.swift; sourceTree = "<group>"; };
 		B71424742CC62B5E005FF296 /* JournalAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B748D2C42CC9556A005C0F6B /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		B748D2C62CCA2167005C0F6B /* JournalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPage.swift; sourceTree = "<group>"; };
+		B748D2C82CCEB39A005C0F6B /* JournalEntryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryData.swift; sourceTree = "<group>"; };
+		B7B699442CC793520055113E /* mainpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainpage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,12 @@
 		B71424562CC62B5B005FF296 /* JournalApp */ = {
 			isa = PBXGroup;
 			children = (
+				B7B699442CC793520055113E /* mainpage.swift */,
 				B71424572CC62B5B005FF296 /* JournalAppApp.swift */,
 				B71424592CC62B5B005FF296 /* ContentView.swift */,
+				B748D2C62CCA2167005C0F6B /* JournalPage.swift */,
+				B748D2C82CCEB39A005C0F6B /* JournalEntryData.swift */,
+				B748D2C42CC9556A005C0F6B /* Test.swift */,
 				B714245B2CC62B5E005FF296 /* Assets.xcassets */,
 				B714245D2CC62B5E005FF296 /* Preview Content */,
 			);
@@ -257,6 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B748D2C92CCEB39A005C0F6B /* JournalEntryData.swift in Sources */,
+				B7B699452CC793520055113E /* mainpage.swift in Sources */,
+				B748D2C72CCA2167005C0F6B /* JournalPage.swift in Sources */,
+				B748D2C52CC9556A005C0F6B /* Test.swift in Sources */,
 				B714245A2CC62B5B005FF296 /* ContentView.swift in Sources */,
 				B71424582CC62B5B005FF296 /* JournalAppApp.swift in Sources */,
 			);
